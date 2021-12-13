@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Padauk', sans-serif;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #C50000;
+	line-height: 75px;
+	padding: 0px 50px;
+	position: fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+nav .logo p{
+	float: left;
+	color: #fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+nav ul li a:hover{
+	color: black;
+	background-color: white;
+}
+nav ul li .active{
+	color: c0d96f;
+}
+.fa {
+  	padding: 0px;
+  	font-size: 14px;
+  	width: 20px;
+  	text-decoration: none;
+  	margin-top: 0px;
+  	float: right;
+  	margin-right: 0px;
+}
+.fa-twitter {
+  background: #004FB3;
+  color: white;
+  text-align: center;
+}
+.fa-whatsapp {
+  background: #009902;
+  color: white;
+  text-align: center;
+}
+.fa-instagram {
+  background: #AC0087;
+  color: white;
+  text-align: center;
+}
+.banner-area{
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 70px;
+	background-image: url('https://wallpaperaccess.com/full/5463784.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2{
+	padding-top: 7%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+.content-area{
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background-color: grey;
+	height: 800px;
+}
+.content-area h2{
+	font-family: georgia;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p{
+	padding-top: 30px;
+	font-family: sans-serif;
+	font-size: 16px;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+.type1{
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+	width: 150px;
+	height: 180px;
+	border-color: white;
+}
+.start{
+	padding-top: 5.5%;
+}
+table.table1{
+	border: 2px solid red;
+	border-collapse: collapse;
+	width: 70%;
+}
+.table1 td, th{
+	border: 2px solid red;
+	color: black;
+	padding: 1%;
+	font-size: 17px;
+}
+.table1 tr{
+		border: 2px solid black;
+}
+.table1 th{
+	background-color: lightgrey;
+}
+.table1 td{
+	background-color: lightyellow;
+}
+.heading1{
+	padding-top: 5.5%;
+}
+.paragraph{
+	padding-top: 2%;
+	font-family: padauk;
+	font-size: 20px;
+	color: white;
+}
+.heading3{
+	padding-top: 5.5%;
+	padding-bottom: 3%;
+	font-family: padauk;
+}
+.table2{
+	text-align: center;
+	padding: 0%;
+}
